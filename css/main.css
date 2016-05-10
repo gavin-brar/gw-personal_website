@@ -1,0 +1,211 @@
+body, html{
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: url("../img/forest.jpeg");
+  background-size: cover;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #1d2120;
+  margin: 0 auto;
+  position: fixed;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+
+.name{
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+
+.name h1{
+  text-align: center;
+  padding: 20px 0px;
+  color: white;
+}
+
+.menu li{
+  display: inline;
+  margin: 20px 20px;
+  color: white;
+}
+
+.menu {
+height: 100%;
+width: 400px;
+padding: 30px 0px;
+float: right;
+}
+
+#banner{
+  height: 500px;
+  width: 100%;
+}
+
+#banner h2{
+  text-align: center;
+  padding: 300px;
+  font-size: 2em;
+  color: white;
+}
+
+#about_index {
+  height: 300px;
+  width: 100%;
+  margin-top: 50px;
+  background-color: #1d2120;
+}
+
+#about_index h2 {
+  text-align: center;
+  padding-top: 125px;
+  padding-left: 250px;
+  float: left;
+  color: white;
+  text-decoration: underline;
+}
+
+
+#about_index p{
+  height: 25%;
+  width: 50%;
+  float: right;
+  text-align: center;
+  color: #bcd5d1;
+  padding-right: 75px;
+  padding-top: 100px;
+}
+
+#skills{
+  height: 800px;
+  width: 100%;
+  background-color: #1d2120;
+  padding-top: 50px;
+  margin: 150px 0px;
+}
+
+#skills h2{
+  padding-left: 50%;
+  padding-top: 25px;
+  color: white;
+  text-decoration: underline;
+}
+
+.skills-container{
+  padding-top: 20px;
+  padding-left: 15%;
+  height: 40%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills article{
+  width: 35%;
+  height: 60%;
+  background-color: #bcd5d1;
+  float: left;
+  margin: 50px 24px;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+#skills article h1{
+  text-align: center;
+}
+
+#contact_index{
+  height: 200px;
+  width: 100%;
+  background-color: #1d2120;
+  margin-top: 200px;
+  margin-bottom: 0px auto;
+}
+
+#contact_index h2{
+  padding: 75px;
+  text-align: center;
+  color: white;
+}
+
+#contact_index a{
+  text-decoration: underline;
+  color: #ba9077;
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: #1d2120;
+  clear: both;
+  margin: 0 auto;
+
+}
+
+.copyright p{
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+}
+.sm-icons{
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+}
+.icon{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  float: left;
+  margin: 0 5px;
+  border-radius: 100%;
+}
+.icon i{
+  font-size: 2em;
+  padding: 10px;
+}
+
+#background_space{
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#about{
+  height: 400px;
+  width: 100%;
+  margin: 150px 0px;
+  padding-top: 50px;
+  background-color: #1d2120;
+}
+
+.about_container{
+  height: 60%;
+  width: 30%;
+  padding-left: 20%;
+  background-color: #bcd5d1;
+}
+
+#about h2{
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
